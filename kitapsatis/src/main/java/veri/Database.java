@@ -13,7 +13,7 @@ public class Database {
         private Connection conn;
         String dbUrl = "jdbc:mysql://localhost:3306/kitapsatissitesi?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC";
         String user = "root";
-        String pass= "Mba_6161";
+        String pass= "";
         
         public Connection baglan(){
             try {
